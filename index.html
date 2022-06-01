@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html><head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><style type="text/css">
+	html{font-family: 'Noto Sans KR', sans-serif;}
+	*{box-sizing: border-box;}
+	body{margin: 0;
+		box-sizing: border-box;
+		background-image: url(배경4.gif);
+		background-size: 100% auto;
+		height: 20000px;
+		background-repeat: no-repeat;}
+
+	.row{width: 1020px;
+			margin: auto;
+			padding: 10px 50px;
+			position: relative;
+			display: flex;}
+
+	image-rendering: -webkit-optimize-contrast;
+
+	section{background: none; padding-top: 50px; margin: auto;}
+
+	a{display: inline-block; background: none; text-decoration: none; border-radius: 5px;}
+
+	.col-1{width: 150px; background: none; margin: 0px 10px;}
+	.col-2{width: 320px; background: none; margin: 0px 10px;}
+	.col-3{width: 490px; background: none; margin: 0px 10px;}
+	.col-4{width: 660px; background: none; margin: 0px 10px;}
+	.col-5{width: 830px; background: none; margin: 0px 10px;}
+	.col-6{width: 1000px; background: none; margin: 0px 10px;}
+
+	h1{font-size: 160pt; margin-top: 450px; line-height: 1.25; font-weight: 900; word-spacing: -1px; letter-spacing: -1px; text-align: center;}
+	h2{font-size: 40pt; line-height: 1.25; font-weight: 700; word-spacing: -1px; letter-spacing: -1px; margin-bottom: 50px; margin:50px 15px; font-weight: 900;}
+	h3{font-size: 16pt;margin-bottom: 20px; font-weight: 600; line-height: 1.3;word-spacing: -3px; margin:24px 15px}
+
+	p{line-height: 1.75; word-break: keep-all; margin:24px 15px; font-weight: 400; word-spacing: -1.5px; font-size: 12pt;}
+
+		h4{font-size: 20pt;margin-bottom: px; font-weight: 600; line-height: 0;word-spacing: -3px; margin:24px 15px;
+			font-weight: 900;}
+		h5{font-size: 20pt;margin-bottom: 20px; font-weight: 600; line-height: 1.3;word-spacing: -3px; margin:24px 15px; font-weight: 300;}
+
+		h6{font-size: 25pt; line-height: 1.25; margin-top:13px; font-weight: 700; word-spacing: -1px; letter-spacing: -1px; margin-bottom: 50px; margin:24px 15px; font-weight: 900;}
+
+	a-a{display: inline-block ; background: orangered; border-radius: 1px; color: black; font-weight: 900; transform: skew(-17deg);}
+
+	a{display: inline-block ; background: none; border-radius: 1px; font-weight: bold;}
+
+	footer{height: 150px; background: white;}
+	footer p{font-size: 10pt; text-align: center; font-weight:bold; color: darkgray; margin-top: 100px; }
+
+	header{height: 1125px; margin: auto;}
+
+	.height-sgr{height: 700px;}
+	
+	.height-turtle{height: 1000px;}
+
+	.height-sea{height: 3500px;}
+
+	.text-white{color: white;}
+	.text-red{color: #be1c23}
+
+	.text-align{word-break: keep-all;}
+
+	.text-align1{margin-top: 1200px;}
+	.text-align2{margin-top: 1050px;}
+	.text-align3{margin-top: 170px;}
+
+	.text-align4{margin-top: 3000px;}
+	.text-align5{margin-top: 700px;}
+	.text-align6{margin-top: 350px;}
+
+	.margin-top{margin-top: -500px;}
+
+
+	.font-weight{font-weight: bold;}
+	.font-style{font-style: italic;}
+
+	.bg-black{background: black;}
+	.bg-none{background: none;}
+	.bg-white{background: white;}
+
+	.bg-beach{height: 900px;}
+	.bg-beach2{background-image: url(모래사장.png);
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+			height: 1300px;}
+
+
+	.bg-head{background-image: url(헤더2.png);
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+			height: 1600px;}
+
+	.bg-sea{background-image: url(sea.png);
+			background-size: 100% auto;
+			background-repeat: no-repeat;
+			height: 3600px;}
+
+
+	.text-shadow{text-shadow: 0px 0px 9px #000000;}
+	.text-shadow2{text-shadow: 0px 0px 60px #4a575c;}
+
+	.text-margin{margin-top: 35px;}
+
+	.img-align{display: block; margin: auto;}
+
+	.title{height: 1300px;}
+
+	
+	.blend{mix-blend-mode: multiply;}
+
+	.cgr{margin-top: 100px;
+		background-image: url(담배꽁초.png);
+		height: 1650px;
+		background-repeat: no-repeat;}
+
+	.cgr2{background-image: url(담배.png);
+			background-size: cover; z-index: 1;
+			height: 1000px;}
+
+	.cgr3{position: absolute;
+			z-index: 1;
+			margin-top: 300px;}
+
+	.hd{overflow: hidden;}
+
+	.img-sgr{display: block; margin: auto; width: 900px;}
+
+	.garbage{
+		background-image: url(쓰레기.png);
+		height: 1800px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: -500px;}
+
+	.img-sgr2{display: block; margin: auto; width: 900px;
+				margin-top: 500px; position: absolute;}
+
+	.img-seal{display: block; margin: auto; width: 900px;}
+
+
+</style>
+</head>
+<body>
+	<header class="bg-head hd">
+		<div class="row">
+			<img src="비닐2.png" style="position: absolute; z-index: 2; left: -200px; top: -200px;" width="500px";> 
+			<img src="페트병.png" style="position: absolute; z-index: 2; left: -400px; top: 600px;" width="800px";>  
+			<img src="맥주캔.png" style="position: absolute; right: -400px; top: 300px;" width="500px";> 
+			<img src="맥주캔2.png" style="position: absolute; right: -400px; top: -50px;" width="500px";> 
+			<img src="비닐장갑.png" style="position: absolute; z-index: 2; left: -400px; top: 300px;" width="400px";>  
+			</div>
+	</header>
+	<section>
+		<div class="row">
+			<img src="쓰레기2.png" style="position: absolute; z-index: 3; left: 100px; width: 1200px; top: -650px" >
+			<div class="col-3">
+				<h6>연간 포획되는<br>해양 쓰레기종의 개체수는<br> 14.5만톤에 달합니다.</h6>
+			</div>
+			<div class="col-3">
+				<p style="font-size: 13pt; text-align: right;">
+					해안가에 서식하는 <span class="font-weight">‘해안 쓰레기’</span>
+				<br>해면이나 바닷속에 서식하는 <span class="font-weight">‘부유 쓰레기’</span>
+				<br>해저에 침해되어 서식하는 <span class="font-weight">‘침적 쓰레기’</span>
+				<br>이것들을 통틀어 <span class="font-weight">‘해양 쓰레기’</span>라고 한다.</p>
+		</div>
+	</section>
+
+	<section>
+		 <img src="담배.png" style="width: 100%;" class="cgr3">
+		<div class="row cgr">
+			<div class="col-3"></div>
+			<div class="col-3 text-align1">
+				<h3>해안 쓰레기의 3분의 1을 차지하는 ❛담배꽁초❜</h3>
+				<p>해안가에 서식하는 ‘해안 쓰레기’종으로, 
+					담배 꽁초의 필터는<br> 미세 플라스틱으로 분해되어
+					해양을 오염 시키고 생물을 해친다는 특징이 있다.
+					</p>
+			</div>
+		</div>
+	</section>
+
+		<section class="hd bg-beach">
+			<div class="row">
+				<div class="col-3">
+
+					<h2>담배꽁초가<br> 보고싶으세요?<br>
+						해변으로 가요!</h2>
+
+						<h3>전국 해변에서 가장 많이 포착되는<br> 해안 쓰레기</h3>
+					<p>담배꽁초는 해안가에 서식하는 것이 특징이며,<br>
+						서해안 8곳과 남해안 5곳 등 대부분의 해안가에서<br> 
+						가장 많이 포획된 쓰레기 종이다.
+
+					<img src="파라솔.png" style="position: absolute; z-index: 1; right: -550px; top: -10px;" width="1000px";>  
+
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="height-sgr">
+			<img src="담배2.png" class="img-sgr">
+			<div class="row">
+				<div class="col-3">
+					<h2>굳이 찾아가지<br> 않아도 우리에게<br> 돌아올 거예요.</h2>
+					</div>
+					<div class="col-3 text-margin">	
+					<h3>인간에 의해 만들어진 담배꽁초는 다시<br> 우리의 폼으로
+				 	</h3>
+				 	<p>담배꽁초의 필터는 90% 이상이 플라스틱으로
+						만들어져 바다로 떠내려갈 경우 미세플라스틱으로
+						자연 분해돼 해양 생태계에 악영향을 끼치고,
+						먹이사슬에 따라 결국 사람의 몸에도 축적된다.</p>
+				 	</div>
+				</div>				
+			</div>
+		</section>
+
+		<!---<section class="bg-beach2">
+			<div class="row">
+				<div class="col-6">
+				<img src="거북이.png" style="position: absolute; z-index: 1; top: 100px; left: 460px;" width="180px">
+				</div>
+			</div>
+		</section> ---->
+
+	<section class="bg-sea">
+		<div class="row">
+		</div>
+	</section>
+
+	<section class="garbage height-plactic">
+		<div class="row style="text-align:center;>
+					<img src="부유쓰레기.png" class="img-sgr2">
+					<img src="비닐봉지2.png" style="position: absolute; z-index: 1; right: -10px; top: 700px;" width="200px">
+					<img src="비닐봉지3.png" style="position: absolute; z-index: 1; top: 880px;" width="900px">
+			<div class="col-3 text-align2 ">
+				<h3>둥둥 떠다니며 먹이로 둔갑된 <br>부유 쓰레기 ‘비닐봉지’</h3>
+				<p>비닐봉지는 해수 표면에 가까이 떠다니는<br>
+					‘부유 쓰레기’종으로, 바다 생물들에게 먹이처럼<br>
+					오인되어 먹히는 경우가 많다는 것이 특징이다. 
+					</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="height-turtle hd">
+		<div class="row">
+			<img src="거북이2.png" style="position: absolute; z-index: 2; left: -600px; top: -10px;" width="1800px";>  
+			<img src="거북이 비닐.png" style="position: absolute; left: -450px; top: -10px;" width="1800px";>  
+
+			<div class="col-3">
+			</div>
+
+			<div class="col-3 text-align3">
+
+				<div style="z-index: 1; position: relative;">
+				<h2>바다 거북이의<br>
+						주식은, 비닐봉지</h2>
+						</div>
+					<div style="z-index: 3; position: relative;">
+					<h3 >전국 해변에서 가장 많이 포착되는<br> 해안 쓰레기</h3>
+				<p>담배꽁초는 해안가에 서식하는 것이 특징이며,<br>
+						서해안 8곳과 남해안 5곳 등 대부분의 해안가에서<br> 
+						가장 많이 포획된 쓰레기 종이다.
+				</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+		<section class="height-turtle">
+			<h1 style="margin-bottom: 50px;">해파리? <br>비닐봉지?</h1>
+		<div class="row style="text-align:center; >
+					<img src="해파리.png" style="position: absolute; z-index: 1; right: -100px; top: -600px;" width="1200px">
+			<div class="col-3">
+				<h2>해파리일까?<br>비닐봉지일까?</h2>
+			</div>
+			<div class="col-3 text-margin">
+				<h3>해파리의 모습과 유사한 부유 쓰레기 </h3>
+				<p>해파리들을 주식으로 삼는 바다 거북이들은
+					부유하며 떠다니는 비닐봉지를 해파리로 착각해
+					먹어버리고 폐사하는 사례가 많다.  </p>
+			</div>
+		</div>
+		</section>
+
+		<section class="height-sea hd">
+			<div class="row style="text-align:center; >
+					<img src="비닐봉지4.png" style="position: absolute; z-index: 3; left: -500px; width: 800px; top: 20px" >
+					<img src="TV.png" style="position: absolute; z-index: 1; right: -300px; width: 1800px;">
+					<img src="그물.png" style="position: absolute; right: 400px; width: 1800px; top: 500px;">
+					<img src="그물2.png" style="position: absolute; left:  200px; width: 1800px; top: 1600px;">
+					<iframe style="position: absolute; z-index: 2; transform: rotate(9deg); top: 450px; left: -25px;" width="900" height="506.25" src="https://www.youtube.com/embed/8En5Q6_LtyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<img src="폐기어구.png" style="position: absolute; z-index: 7; right: 40px; top: 2250px;" width="1300px">
+				<div class="col-3"></div>
+				<div class="col-3 text-align4 text-shadow2" style="z-index: 6;">
+					<h3>바다 깊은 곳 유령어업의 비결은
+					<br>침적 쓰레기 ‘폐어구’</h3>
+					<p>인간들이 고기를 잡는 과정에서 유실된 그물 등
+						<br>각종 어구·물건이 바다 밑에 가라 앉으면서 생긴
+						<br>‘침적 쓰레기’종이다.
+						</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="height-turtle hd">
+			<div class="row style="text-align:center;>
+			<img src="물개.png" style="position: absolute; z-index: 5; left: -100px; top: 300px;" width="1300px">
+				<div class="col-3">
+					<h2>폐어구는<br>해양 생물들의<br>악세사리</h2>
+					</div>
+					<div class="col-3 text-align5">	
+					<h3>인간의 손을 떠나서도 본래의
+						<br>역할을 수행하는 폐어구들
+				 	</h3>
+				 	<p>나일론으로 만들어진 어구가 썩는데 걸리는
+						시간은 600여년, 인간의생보다 훨씬 오랜 시간동안
+						살아 남아 어구에는 어류가 계속해서  걸려든다. </p>
+				 	</div>
+				</div>				
+			</div>
+		</section>
+
+	<section>
+		 <img src="폐기물2.gif" style="width: 100%;" class="cgr3">
+		<div class="row">
+			<div class="col-3 text-align6">
+				<h2>인간에 의해<br> 버려지고, 다시<br> 인간에게로.</h2>
+				<h3>침적 쓰레기로 인한 선박사고 <br>5년간 1500건</h3>
+				<p>바다에 버려진 밧줄이나 어망 등이 선박 추진기에
+					감기거나 엔진에 빨려들어가는 등의 형태로
+					선박사고를 유발하기도 한다. 인간에 의해 버려진
+					침적 쓰레기는 다시 인간에게 돌아온다. 
+					</p>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
